@@ -1,0 +1,40 @@
+.waiting{
+    min-height: 473px;
+    background-color:#F6F6F6;
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #0D0D0D;
+        padding-top: 73px;
+    }
+    &__logos {
+        margin-top: 60px;
+        width: 952px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 277px;
+        text-align: center;
+        color: #0D0D0D;
+        font-size: 14px;
+        font-weight: 300;
+        img {
+            display:block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+    }
+    &__subheader {
+        margin-bottom: 20px;
+    }
+    &__red_text {
+        font-family: 'MuseoModerno';
+        color: #FF0000;
+        text-decoration: underline;
+    }
+}
